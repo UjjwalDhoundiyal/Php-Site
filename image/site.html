@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            background-color: #ffffff;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            background-color: #ddd;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .containers{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .right{
+            padding: 10px;
+        }
+        .space{
+            margin: 10px;
+            background-color: aliceblue;
+            padding: 10px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .contact {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            /* border: 1px solid #ccc; */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact textarea {
+            resize: vertical;
+        }
+
+        .contact button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div><img src="logo.png" alt="" width="100px" height="100px"></div>
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left">
+            <h1>Who we are:- </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem tempore id enim possimus, nesciunt, aliquam laboriosam rem aspernatur laudantium porro dolores accusamus nam, incidunt illo ipsam blanditiis maiores illum cupiditate.</p>
+
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+
+        </div>
+        <div class="right">
+            <img src="img.png" width="500px" height="300px">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <img src="img.png" width="500px" height="300px">
+        </div>
+        <div class="right">
+            <h1>What we do:- </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem tempore id enim possimus, nesciunt, aliquam laboriosam rem aspernatur laudantium porro dolores accusamus nam, incidunt illo ipsam blanditiis maiores illum cupiditate.</p>
+
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h1>How we can help you:- </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem tempore id enim possimus, nesciunt, aliquam laboriosam rem aspernatur laudantium porro dolores accusamus nam, incidunt illo ipsam blanditiis maiores illum cupiditate.</p>
+
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+
+        </div>
+        <div class="right">
+            <img src="img.png" width="500px" height="300px">
+        </div>
+    </div>
+
+
+    <h1 style="text-align: center;">Frequent Questions:- </h1>
+    <div class="containers">
+        <div class="space">
+            <img src="logo.png" alt="" width="100px" height="100px">
+            <h2>Anything.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia maiores corporis suscipit hic perspiciatis, debitis vitae fugiat sit libero laboriosam vel laudantium error repellendus, ipsum tenetur voluptates molestias voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Check Here</button>
+        </div>
+        
+        <div class="space">
+            <img src="logo.png" alt="" width="100px" height="100px">
+            <h2>Anything.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia maiores corporis suscipit hic perspiciatis, debitis vitae fugiat sit libero laboriosam vel laudantium error repellendus, ipsum tenetur voluptates molestias voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Check Here</button>
+        </div>
+        <div class="space">
+            <img src="logo.png" alt="" width="100px" height="100px">
+            <h2>Anything.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia maiores corporis suscipit hic perspiciatis, debitis vitae fugiat sit libero laboriosam vel laudantium error repellendus, ipsum tenetur voluptates molestias voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Check Here</button>
+        </div>
+        <div class="space">
+            <img src="logo.png" alt="" width="100px" height="100px">
+            <h2>Anything.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia maiores corporis suscipit hic perspiciatis, debitis vitae fugiat sit libero laboriosam vel laudantium error repellendus, ipsum tenetur voluptates molestias voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dignissimos sit dolor praesentium sunt necessitatibus amet illum impedit nisi perferendis obcaecati itaque voluptatem enim laudantium et officiis eum, doloribus reiciendis!</p>
+            <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Check Here</button>
+        </div>
+    </div>
+<h1 style="text-align: center;">Where I Practice:-</h1>
+    <div class="containers">
+        <div class="space"><img src="img1.jpeg" width="200px" height="200px" alt=""></div>
+        <div class="space"><img src="img2.jpeg" width="200px" height="200px" alt=""></div>
+        <div class="space"><img src="img3.png" width="200px" height="200px"  alt=""></div>
+        <div class="space"><img src="img4.png" width="200px" height="200px"  alt=""></div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+    
+            <label for="bio">Bio:</label>
+            <textarea id="bio" name="bio" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Ujjwal Dhoundiyal. All rights reserved.</p>
+    </div>
+</body>
+</html>
